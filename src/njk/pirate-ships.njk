@@ -1,8 +1,12 @@
 {% extends '_templates/base.njk' %}
 
+{% block page_title %}Ships of the Golden Age of Pirates{% endblock %}
+
+{% block page_description %}Comprehensive list of the top eight most popular pirate ships of all time.{% endblock %}
+
 {% block content %}
 <article class="container">
-  <h1>Ships of the Golden Age of pirates</h1>
+  <h1>Ships of the Golden Age of Pirates</h1>
   <p>Intro text here.</p>
   <div class="row">
     {% for ship in pirates.ships %}
